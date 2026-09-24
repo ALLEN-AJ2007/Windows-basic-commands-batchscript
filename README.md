@@ -62,7 +62,7 @@ echo hello world > hello.txt
 
 **OUTPUT**
 
-![File delete output](screenshots/06_del.svg)
+![hello.txt creation output](screenshots/04_echo.svg)
 
 ### Copy the file hello.txt into the file hello1.txt
 
@@ -84,7 +84,7 @@ del hello1.txt
 
 **OUTPUT**
 
-> Screenshot: Run the command and show the result.
+![File delete output](screenshots/06_del.svg)
 
 ### List out the file hello1.txt in the current directory
 
