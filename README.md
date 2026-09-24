@@ -28,7 +28,6 @@ mkdir my-folder
 
 **OUTPUT**
 
-> Screenshot: Run the command in Command Prompt and insert the screenshot here.
 <img width="391" height="106" alt="Screenshot 2026-09-24 164417" src="https://github.com/user-attachments/assets/98140734-798f-4a22-9858-659c1c1cfa3c" />
 
 ### Remove the directory "my-folder"
@@ -40,7 +39,6 @@ rmdir my-folder
 
 **OUTPUT**
 
-> Screenshot: Run the command in Command Prompt and insert the screenshot here.
 <img width="562" height="206" alt="Screenshot 2026-09-24 164521" src="https://github.com/user-attachments/assets/18bbe2e2-7abf-4858-9fda-aee345a01674" />
 
 ### Create the file Rose.txt
@@ -53,7 +51,7 @@ Type some text, press **Enter**, then press **Ctrl+Z** and **Enter** to save.
 
 **OUTPUT**
 
-> Screenshot: Run the command and show Rose.txt being created.
+![Rose.txt creation output](screenshots/03_rose.svg)
 
 ### Create the file hello.txt using echo and redirection
 
@@ -64,7 +62,7 @@ echo hello world > hello.txt
 
 **OUTPUT**
 
-> Screenshot: Run the command and show the result.
+![File delete output](screenshots/06_del.svg)
 
 ### Copy the file hello.txt into the file hello1.txt
 
@@ -75,7 +73,7 @@ copy hello.txt hello1.txt
 
 **OUTPUT**
 
-> Screenshot: Run the command and show the successful copy message.
+![File copy output](screenshots/05_copy.svg)
 
 ### Remove the file hello1.txt
 
@@ -97,7 +95,7 @@ dir hello1.txt
 
 **OUTPUT**
 
-> Screenshot: Run the command. If hello1.txt was deleted in the previous step, the expected result is that the file is not found.
+![dir hello1.txt output](screenshots/07_dir.svg)
 
 ### List out all the associated file extensions
 
@@ -108,7 +106,7 @@ assoc
 
 **OUTPUT**
 
-> Screenshot: Run the command and show the associated file extensions.
+![assoc output](screenshots/08_assoc.svg)
 
 ### Compare the file hello.txt and rose.txt
 
@@ -119,7 +117,7 @@ fc hello.txt Rose.txt
 
 **OUTPUT**
 
-> Screenshot: Run the command and show the comparison result. Make sure the file names and their contents match the files you created.
+![fc comparison output](screenshots/09_fc.svg)
 
 # Exercise 2: Advanced Batch Scripting
 
@@ -137,7 +135,7 @@ pause
 
 **OUTPUT**
 
-> Screenshot: Run `1.bat` and show `Hello, John`.
+![1.bat output](screenshots/10_1bat.svg)
 
 ## 2. Batch file to check whether a number is odd
 
@@ -170,7 +168,7 @@ goto choice
 
 **OUTPUT**
 
-> Screenshot: Run the batch file, enter a number, and show the odd/not-odd result and Y/N continuation prompt.
+![2.bat output](screenshots/11_2bat.svg)
 
 ## 3. FOR loop from 1 to 5
 
@@ -185,7 +183,7 @@ pause
 
 **OUTPUT**
 
-> Screenshot: Run `3.bat` and show Number: 1 through Number: 5.
+![3.bat output](screenshots/12_3bat.svg)
 
 ## 4. Check whether sample.txt exists
 
@@ -204,7 +202,7 @@ pause
 
 **OUTPUT**
 
-> Screenshot: Place `sample.txt` in the same directory as the batch file and run it to show the expected output.
+![4.bat output](screenshots/13_4bat.svg)
 
 ## 5. Simple menu using goto
 
@@ -248,7 +246,7 @@ exit /b
 
 **OUTPUT**
 
-> Screenshot: Run `5.bat`, show the menu, test the options, and show the created `newfile.txt`.
+![5.bat output](screenshots/14_5bat.svg)
 
 # RESULT:
 The commands/batch files are executed successfully.
