@@ -29,6 +29,7 @@ mkdir my-folder
 **OUTPUT**
 
 > Screenshot: Run the command in Command Prompt and insert the screenshot here.
+<img width="391" height="106" alt="Screenshot 2026-09-24 164417" src="https://github.com/user-attachments/assets/98140734-798f-4a22-9858-659c1c1cfa3c" />
 
 ### Remove the directory "my-folder"
 
@@ -40,6 +41,7 @@ rmdir my-folder
 **OUTPUT**
 
 > Screenshot: Run the command in Command Prompt and insert the screenshot here.
+<img width="562" height="206" alt="Screenshot 2026-09-24 164521" src="https://github.com/user-attachments/assets/18bbe2e2-7abf-4858-9fda-aee345a01674" />
 
 ### Create the file Rose.txt
 
